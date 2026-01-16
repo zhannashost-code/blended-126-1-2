@@ -4,178 +4,329 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vyshyvanka-Vibes</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
-        <ul>
-          <li><a href="./index.html">About us</a></li>
-          <li><a href="./index.html">Our collection</a></li>
-          <li><a href="./index.html">Customer order</a></li>
-          <li><a href="./index.html">Testimonials</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-          <li>
-            <a href="https://www.facebook.com/" target="_blank">facebook</a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" target="_blank">instagram</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/" target="_blank">youtube</a>
-          </li>
-        </ul>
-      </address>
+    <section class="hero">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo"
+            ><img src="./images/logo.png" alt="logo"
+          /></a>
+          <ul class="header-nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link">About us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link">Our collection</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link">Customer Order</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="address-list">
+            <li class="address-item">
+              <a href="tel:+380684439426" class="address-link address-tel"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li class="address-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="address-link social-link"
+                >f</a
+              >
+            </li>
+            <li class="address-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="address-link social-link"
+                >i</a
+              >
+            </li>
+            <li class="address-item">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="address-link social-link"
+                >y</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="hero">
-        <img
-          src="./images/girl.jpg"
-          alt="girl in a gray vyshyvanka"
-          width="392"
-          height="545"
-        />
-        <h1>Reviving the traditional Ukrainian artistry in every stitch.</h1>
-        <button type="button">Order</button>
-        <p>
-          <img src="./images/Star.png" alt="star" width="52" height="51" />
-          all embroidery is made by hand
-        </p>
-      </section>
-      <section>
-        <h2>About Us</h2>
-        <ul>
-          <li>
-            <p>
-              The store "Vyshyvanka Vibes" is a place where traditional
-              Ukrainian vyshyvanka comes to life with new zest and style. Our
-              store offers a wide selection of high-quality and authentic
-              embroidery, which combines the elegance of traditional needlework
-              and modern design.
+        <div class="container hero-container">
+          <img
+            src="./images/girl.jpg"
+            alt="girl in a gray vyshyvanka"
+            width="392"
+            height="545"
+            class="hero-img"
+          />
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Reviving the traditional <span class="accent">Ukrainian</span> artistry in every
+              stitch.
+            </h1>
+            <button type="button" class="hero-button">Order</button>
+            <div class="hero-text-container">
+            <p class="hero-text">
+              <img src="./images/Star.png" alt="star" width="52" height="51" />
+              all embroidery is made by hand
             </p>
-          </li>
-          <li>
-            <p>
-              In "Vyshyvanka Vibes" you will find various models of embroidery,
-              from classic to modern, corresponding to the latest fashion
-              trends. Our embroidery is made using natural fabrics and is
-              embroidered by highly qualified craftsmen who convey the beauty of
-              Ukrainian culture in every detail.We believe that vyshyvanka is
-              not just clothing, but a symbol of national pride, the heritage of
-              our ancestors and a way of expressing one's individuality. Each
-              embroidery from "Vyshyvanka Vibes" has its own unique history and
-              symbolism, which gives it a special meaning.
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/girlandboy.jpg"
-          alt="sleeve of vyshyvanka"
-          width="709"
-          height="545"
-        />
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about-container">
+          <div class="about-content">
+          <h2 class="about-title">About Us</h2>
+              <p class="about-text">
+                The store "Vyshyvanka Vibes" is a place where traditional
+                Ukrainian vyshyvanka comes to life with new zest and style. Our
+                store offers a wide selection of high-quality and authentic
+                embroidery, which combines the elegance of traditional
+                needlework and modern design.
+              </p>
+              <p class="about-text">
+                In "Vyshyvanka Vibes" you will find various models of
+                embroidery, from classic to modern, corresponding to the latest
+                fashion trends. Our embroidery is made using natural fabrics and
+                is embroidered by highly qualified craftsmen who convey the
+                beauty of Ukrainian culture in every detail.We believe that
+                vyshyvanka is not just clothing, but a symbol of national pride,
+                the heritage of our ancestors and a way of expressing one's
+                individuality. Each embroidery from "Vyshyvanka Vibes" has its
+                own unique history and symbolism, which gives it a special
+                meaning.
+              </p>
+          </div>
+          <img
+            src="./images/girlandboy.jpg"
+            alt="sleeve of vyshyvanka"
+            width="594"
+            height="545"
+            class="about-img"
+          />
+        </div>
+      </section>
+      <section class="collection section">
+        <div class="container collection-container">
+          <h2 class="collection-title">Our collection</h2>
+          <ul class="collection-list">
+            <li class="collection-item">
+              <img
+                src="./images/poltava.jpg"
+                alt="AUGUST Poltava women's blouseRING"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">AUGUST Poltava women's blouseRING</h3>
+              <p class="collection-text">3300 UAH</p>
+              </div>
+            </li>
+            <li class="collection-item">
+              <img
+                src="./images/gorgany.jpg"
+                alt="Women's blouse Gorgany"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">Women's blouse Gorgany</h3>
+              <p class="collection-text">3350 UAH</p>
+              </div>
+            </li>
+            <li class="collection-item">
+              <img
+                src="./images/crimea.jpg"
+                alt="Women's blouse Crimea"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">Women's blouse Crimea</h3>
+              <p class="collection-text">4000 UAH</p>
+              </div>
+            </li>
+            <li class="collection-item">
+              <img
+                src="./images/verkhovina.jpg"
+                alt="Men's shirt Verkhovina"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">Men's shirt Verkhovina</h3>
+              <p class="collection-text">3100 UAH</p>
+              </div>
+            </li>
+            <li class="collection-item">
+              <img
+                src="./images/mountain.jpg"
+                alt="Mountain men's shirt"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">Mountain men's shirt</h3>
+              <p class="collection-text">3300 UAH</p>
+              </div>
+            </li>
+            <li class="collection-item">
+              <img
+                src="./images/yasen.jpg"
+                alt="Men's shirt Yasen"
+                width="380"
+                height="430"
+                class="collection-item-img"
+              />
+              <div class="collection-content">
+              <h3 class="collection-name">Men's shirt Yasen</h3>
+              <p class="collection-text">1700 UAH</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="image">
+        <div class="container image-container">
+          <img
+            src="./images/green.jpg"
+            alt="Women in a green shirt"
+            width="1280"
+            height="776"
+            class="image-photo"
+          />
+        </div>
+      </section>
+      <section class="order">
+        <div class="container order-container">
+          <div class="order-image">
+            <img
+              src="./images/likewaistcoat.jpg"
+              alt="The shirt like waistcoat"
+              width="524"
+              height="521"
+            />
+          </div>
+          <div class="order-content">
+            <h2 class="order-title">
+              <span class="accent">Your order</span> is our priority: Personalized approach and quality of
+              service
+            </h2>
+            <form class="order-form">
+              <input
+                type="text"
+                name="user-name"
+                placeholder="Enter your full name"
+              />
+              <input
+                type="email"
+                name="user-email"
+                placeholder="Enter your email"
+              />
+              <textarea name="user-comment" placeholder="Comments"></textarea>
+              <button type="submit" class="order-btn">
+                Send <span class="accent">↗</span>
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
       <section>
-        <h2>Our collection</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/poltava.jpg"
-              alt="AUGUST Poltava women's blouseRING"
-              width="400"
-              height="430"
-            />
-            <h3>AUGUST Poltava women's blouseRING</h3>
-            <p>3300 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./images/gorgany.jpg"
-              alt="Women's blouse Gorgany"
-              width="400"
-              height="430"
-            />
-            <h3>Women's blouse Gorgany</h3>
-            <p>3350 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./images/crimea.jpg"
-              alt="Women's blouse Crimea"
-              width="400"
-              height="430"
-            />
-            <h3>Women's blouse Crimea</h3>
-            <p>4000 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./images/verkhovina.jpg"
-              alt="Men's shirt Verkhovina"
-              width="400"
-              height="430"
-            />
-            <h3>Men's shirt Verkhovina</h3>
-            <p>3100 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./images/mountain.jpg"
-              alt="Mountain men's shirt"
-              width="400"
-              height="430"
-            />
-            <h3>Mountain men's shirt</h3>
-            <p>3300 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./images/yasen.jpg"
-              alt="Men's shirt Yasen"
-              width="400"
-              height="430"
-            />
-            <h3>Men's shirt Yasen</h3>
-            <p>1700 UAH</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <img
-          src="./images/green.jpg"
-          alt="Women in a green shirt"
-          width="1440"
-          height="776"
-        />
-      </section>
-      <section>
-        <img
-          src="./images/likewaistcoat.jpg"
-          alt="The shirt like waistcoat"
-          width="524"
-          height="521"
-        />
-        <h1>
-          Your order is our priority: Personalized approach and quality of
-          service
-        </h1>
-        <!-- не знаю як записати форму для оформлення покупки, треба щоб ви пояснили) сліпо в gpt питати не хочу -->
-
-        <button type="button">Send</button>
-      </section>
-      <section>
-        <h2>Testimonials</h2>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <div class="container">
+          <h2>Testimonials</h2>
+          <ul>
+            <li>
+              <img src="./images/Maria.png" alt="Maria Tkachuk" />
+              <h3>Maria Tkachuk</h3>
+              <p>
+                I was pleasantly surprised by the variety of embroidery offered
+                by Vyshyvanka Vibes. They have models for every taste - from
+                classic to modern. I bought an embroidered dress to celebrate a
+                special occasion and received impeccable service and refinement
+                in every detail.
+              </p>
+            </li>
+            <li>
+              <img src="./images/Sergey.png" alt="Sergey Rybachok" />
+              <h3>Sergey Rybachok</h3>
+              <p>
+                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                are simply masterpieces! I fell in love with the quality of the
+                materials and the skill of the artisans behind each product.
+                This is my favorite embroidery shop where I always find
+                something special and unique.
+              </p>
+            </li>
+            <li>
+              <img src="./images/Natalia.png" alt="Natalia Chatuk" />
+              <h3>Natalia Chatuk</h3>
+              <p>
+                Vyshyvanka Vibes is a real find for everyone who appreciates
+                Ukrainian culture. Their embroidery reflects the spirit and
+                traditions of our people. I not only buy embroidered shirts for
+                myself, but also give them to my friends abroad as a symbol of
+                our beauty and national pride.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <!-- переробити назви класів в навігації так, щоб можна було використати їх у футері -->
+        <ul class="header-nav-list">
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">About us</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">Our collection</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">Customer Order</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">Testimonials</a>
+          </li>
+        </ul>
+        <!-- переробити назви класів в навігації так, щоб можна було використати їх у футері -->
+
+        <h2>A touch of <span>Ukrainian</span> culture in every embroidery</h2>
+      </div>
+    </footer>
   </body>
 </html>
